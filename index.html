@@ -5,45 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles/style.css">
-    <title>Aves Nativas</title>
+    <title>Juegos de Mesa</title>
 </head>
 <body>
 
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-              <a class="navbar-brand">Navbar</a>
-              <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+    <!-- Barra Navegacion -->
+    <nav class="navbar bg-success p-1 mb-3">
+        <div class="container-fluid justify-content-between align-items-center">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <div class="collapse d-none d-sm-block">
+                <div class="navbar-nav d-flex flex-row gap-3">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" href="#">Catalogo</a>
+                    <a class="nav-link" href="#">Puntos de Venta</a>
+                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link disabled" aria-disabled="true">Blog</a>
+                </div>
+            </div>
+            <button class="navbar-toggler d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
     </nav>
 
     <div class="container">
-        <div class="row">
-          
-            <div class="col-xs-12 col-md-6 col-lg-4">
-                <div class="card">
+        <div class="row g-4">
+
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card h-100">
                     <img src="./assets/img/arte-moderno.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Arte Moderno</h5>
-                        <p class="card-text">¡Descubre este clásico juego de Reiner Knizia ambientado en el mundo de 31 Minutos!</p>
+                        <h5 class="card-title fs-3">Arte Moderno</h5>
                         <p class="card-text">En Arte Moderno cada participante maneja una galería de arte. El objetivo es ganar tanto dinero como sea posible, consiguiendo obras de arte en 5 tipos de subastas para luego venderlas al mejor precio.</p>
+                        <!-- <p class="card-text text-secondary">¡Descubre este clásico juego de Reiner Knizia ambientado en el mundo de 31 Minutos!</p> -->
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">10+</li>
-                        <li class="list-group-item">3-5</li>
-                        <li class="list-group-item">45min</li>
+                        <li class="list-group-item">
+                            <p class="m-0">
+                                10+ 
+                                3-5 
+                                45min
+                            </p>
+                        </li>
                     </ul>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                    <div class="card-footer">
+                        <p><span></span></p>
                     </div>
                 </div>
             </div>
 
             <div class="col-xs-12 col-md-6 col-lg-4">
-                <div class="card">
+                <div class="card h-100">
                     <img src="./assets/img/llama.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Llama</h5>
@@ -54,7 +66,7 @@
                         <li class="list-group-item">2-6</li>
                         <li class="list-group-item">20min</li>
                     </ul>
-                    <div class="card-body">
+                    <div class="card-footer">
                         <a href="#" class="card-link">Card link</a>
                         <a href="#" class="card-link">Another link</a>
                     </div>
