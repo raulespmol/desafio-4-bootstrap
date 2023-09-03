@@ -15,3 +15,7 @@ body {
 .logo {
     max-height: 25px;
 }
+
+.hero {
+    background-image: url('../img/bg.jpg');
+}
